@@ -2,8 +2,7 @@ cask "airstats" do
   version "1.0"
   sha256 "cb09c57c7625e344f2050175bb0c0cc52ccb691531ee874631d536ddd485e46f"
 
-  url "https://github.com/byrencheema/airstat/releases/download/v#{version}/AirStats.dmg",
-      verified: "github.com/byrencheema/airstat/"
+  url "https://github.com/byrencheema/airstat/releases/download/v#{version}/AirStats.dmg"
   name "AirStats"
   desc "Menu bar system monitor"
   homepage "https://airstat-site.vercel.app/"
