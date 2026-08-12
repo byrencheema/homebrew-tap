@@ -8,7 +8,7 @@ brew install --cask byrencheema/tap/airstats
 
 | Cask | What it is | Source |
 | --- | --- | --- |
-| `airstats` | A menu bar system monitor for macOS | [byrencheema/airstat](https://github.com/byrencheema/airstat) |
+| `airstats` | A menu bar system monitor for macOS | [byrencheema/airstats](https://github.com/byrencheema/airstats) |
 
 Homebrew requires third-party taps to be trusted before it will load them. Installing a
 cask by its full `user/tap/cask` name records that trust, so the line above is enough. If
