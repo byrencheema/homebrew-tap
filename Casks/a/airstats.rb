@@ -1,6 +1,6 @@
 cask "airstats" do
-  version "1.3"
-  sha256 "2f34110e65b6787eff164c6d37608428857e7bdb419e4a7d4cf6cd6423cd2382"
+  version "1.3.1"
+  sha256 "a73ade3a004c4f2f0b8870403edbf1fa55d665285da7deeeb1811e2f9db2529f"
 
   url "https://github.com/byrencheema/airstats/releases/download/v#{version}/AirStats.dmg"
   name "AirStats"
