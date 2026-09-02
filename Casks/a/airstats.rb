@@ -12,13 +12,18 @@ cask "airstats" do
     strategy :github_latest
   end
 
+  auto_updates true
   depends_on macos: :sonoma
+  depends_on arch: :arm64
 
   app "AirStats.app"
 
+  uninstall quit: "com.airstat.AirStats"
+
   zap trash: [
     "~/Library/Application Support/AirStats",
+    "~/Library/Caches/com.airstat.AirStats",
+    "~/Library/HTTPStorages/com.airstat.AirStats",
     "~/Library/Preferences/com.airstat.AirStats.plist",
-    "~/Library/Saved Application State/com.airstat.AirStats.savedState",
   ]
 end
